@@ -1,0 +1,20 @@
+[mods]
+modId = "modding_learning"
+displayName = "Modding Learning"
+version = "${mod_version}"
+authors = "EnderDevelopment"
+description = "A Minecraft mod that teaches players how to make Minecraft mods intuitively by letting them code in game and see results instantly."
+
+[[dependencies.modding_learning]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${loader_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.modding_learning]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft_version}]"
+ordering = "NONE"
+side = "BOTH"
